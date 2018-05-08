@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:black'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Random quote machine</title>
+</head>
+<body onload="newQ()">
+    <div class="bigOne" id="all">
+        <div class="smallerOne">
+            <div class="box" id="box">
+            
+                <div id="quotesDisplay"></div>
+                
+                    <div id="btnz">
+                        <div id="tt">
+                            <button class="tweet" onclick="tweetIt()"><i class="fa fa-twitter"></i></button>
+                        </div>
+                        <div id="click">
+                            <button onclick="newQ(); kolor();" class="button">New quote</button>
+                        </div>
+                    </div>
+               
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="script.js"></script>    
+</body>
+</html>
+

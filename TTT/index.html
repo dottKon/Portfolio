@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Spectral+SC'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Anton'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+</head>
+<body>
+<div id='box'>
+
+
+	<div class="grid" id="board">
+
+		<div id="tl" class="button" onclick="topleft()"></div>
+		<div id="tc" class="button" onclick="topcenter()"></div>
+		<div id="tr" class="button" onclick="topright()"></div>
+
+		<div id="ml" class="button" onclick="middleleft()"></div>
+		<div id="mc" class="button" onclick="middlecenter()"></div>
+		<div id="mr" class="button" onclick="middleright()"></div>
+
+		<div id="bl" class="button" onclick="bottomleft()"></div>
+		<div id="bc" class="button" onclick="bottomcenter()"></div>
+		<div id="br" class="button" onclick="bottomright()"></div>
+
+	</div>
+	<div id="score">
+		<div>Wins X</div>
+		<div id="winsEx"></div>
+		<div>Wins O</div>
+		<div id="winsOh"></div>
+	</div>
+
+</div>
+
+<div id="menu">
+	<div id='sides'>
+		<p>Choose your side
+		</p>
+		<div id="cross" class='symbol' onclick="gameCross()">X</div>
+		<div id="circle" class='symbol' onclick="gameCircle()">O</div>
+
+	</div>
+
+</div>
+
+
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+</body>
+</html>	

@@ -1,0 +1,89 @@
+body {
+	background-color: #13b56c;
+}
+.bigOne {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: table;
+	position: absolute;
+	transition: 0.5s;
+}
+
+.smallerOne{
+	display: table-cell;
+	vertical-align: middle;
+}
+.box {
+	min-height: 40%;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 10px solid;
+	border-color: #004c2a;
+	background-color: #aee5cc;
+	font-family: Lato;
+	border-radius: 20px;
+	position: relative;
+	transition: 0.5s;
+}
+
+#quotesDisplay {
+	font-size: 30px;
+	text-align: center;
+	color: #004c2a;
+	margin-top: 15%;
+	height: 50%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+#btnz {
+	overflow: hidden;
+	min-height: 10%;
+	height: 15%;
+	transition: 0.5s;
+}
+#tt {
+	float: left;
+	width: 50%;
+}
+#click {
+	float: right;
+	width: 50%;
+}
+.button {
+	width: 50%;
+	min-width: 70px;
+	background-color: #13b56c;
+	font-size: 20px;
+	color: white;
+	border-radius: 20px;
+	border: 0;
+	margin-top: 15%;
+	margin-bottom: 20px;
+	margin-right: 25%;
+	display: inline-block;
+	outline: none;
+}
+
+.tweet{
+	width: 15%;
+	min-width: 40px;
+	background-color: #13b56c;
+	font-size: 20px;
+	color: white;
+	border-radius: 20px;
+	border: 0;
+	margin-top: 15%;
+	margin-bottom: 20px;
+	margin-right: 3%;
+	display: inline-block;
+	outline: none;
+}
+
+.button:hover{
+	background-color: white;
+	color: #13b56c;
+}

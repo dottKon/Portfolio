@@ -1,0 +1,163 @@
+
+.container {
+	display: table;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: #efefef;
+
+}
+
+.mid{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.box {
+	min-height: 20vh;
+	width: 600px;
+	background-color: #efefef;
+	color: #a9a9a9;
+	font-family: Montserrat;
+	transition: 0.3s;
+	font-size: 1.3em;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box h1 {
+	font-family: Pacifico;
+	padding-bottom: 15px;
+	font-size: 3em;
+	-webkit-transform: rotate(-5deg);
+}
+
+#searchbox{
+	background-color: #ff3b3f;
+	color: #efefef;
+	width: 50px;
+	height: 50px;
+	-webkit-transition: width 0.3s ease-in-out;
+	text-align: center;
+	border-radius: 25px;
+	outline: none;
+	font-family: Montserrat, FontAwesome;
+	border: 0;
+}
+
+#searchbox::-webkit-input-placeholder {
+	color: #efefef;
+}
+
+#searchbox.active{
+	width: 40vh;
+	border-radius: 20px;
+	box-shadow: 0 0 15px 5px #ff3b3f;
+}
+
+
+.button{
+	background-color: #a9a9a9;
+	color: #efefef;
+	border: 0;
+	outline: none;
+	width: 15vh;
+	min-width: 100px;
+	height: 30px;
+	border-radius: 20px;
+	transition: 0.3s;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.button:hover {
+	background-color: #c6c6c6;
+}
+
+.button a {
+	text-decoration: none;
+	color: #efefef;
+}
+
+.button a:hover {
+	text-decoration: none;
+}
+
+
+/*tiles start here */
+
+
+#results h4 {
+	font-size: 0.7em;
+	text-decoration: none;
+	color: #efefef;
+	line-height: 70px;
+	margin: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#results a {
+	text-decoration: none;
+}
+
+#results a:hover {
+	text-decoration: none;
+}
+
+#resu {
+	width: 200px;
+	height: 70px;
+	display: inline-block;
+	background-color: #ff3b3f;
+	transition: 0.3s;
+	margin: 5px;
+	border-radius: 3px;
+	line-height: 50px;
+}
+
+#resu:hover {
+	background-color: #efefef;
+}
+
+#resu h4:hover {
+	color: #ff3b3f;
+}
+
+@media only screen and (max-width: 600px) {
+	.box {
+		width: 95vw;
+		height: 80vh;
+		margin-left: 0;
+	}
+	#searchbox {
+		width: 50px;
+		height: 50px;
+		border-radius: 35px;
+	}
+	#resu {
+		width: 25vw;
+	}
+
+	#results h4 {
+		font-size: 0.6em;
+	}
+	#resu:hover {
+		background-color: #ff3b3f;
+	}
+
+	#resu h4:hover {
+		color: #efefef;
+	}
+	#resu:active {
+		background-color: #efefef;
+	}
+
+	#resu h4:active {
+		color: #ff3b3f;
+	}
+}
+
